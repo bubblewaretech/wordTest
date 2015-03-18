@@ -2,6 +2,13 @@ package com.bubblewaretechnology.VIN.wordtest;
 
 import com.bubblewaretechnology.NLP.NLPInterface;
 
+/**
+ * Sentence parser to split a sentence into words with unique number of characters.
+ * Future enhancements could use easily parse multiple sentences and could be switched to initialize NLP only once.
+ * 
+ * @author davidgill
+ *
+ */
 public class SentenceWordParser {
 
 	public static String sentenceToWordsWithNumbers(String sentence){

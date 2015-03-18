@@ -2,12 +2,15 @@ package com.bubblewaretechnology.VIN.wordtest;
 
 
 /**
- * Application to parse a sentence and turn it into words with the the first letter the number of unique letters and the last letter.
+ * Application to parse a sentence and turn it into words with the the first letter, the number of unique letters, and the last letter.
+ * Test: PP 1.4
  * 
  * Build with "mvn clean install" and run with below command:
  * java -cp /path/to/target/directory/wordtest-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.bubblewaretechnology.VIN.wordtest.App
  * 
  * You will need both en-sent.bin and en-token.bin in the target directory to run. These are found in the resources and attached separately in this project.
+ * 
+ * For more code samples, both in test and professional, please contact David Gill.
  * 
  * @author davidgill
  *
